@@ -1,0 +1,24 @@
+body {
+  padding: 10px 30px;
+}
+
+li {
+  list-style-type: decimal;
+}
+
+.mustReadForm input {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.bookList-MustRead {
+  margin-top: 25px;
+}
+
+.bookList-MustRead li {
+  margin-bottom: 5px;
+}
+
+.bookList-MustRead .delBtn {
+  margin-left: 8px;
+}
