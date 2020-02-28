@@ -44,6 +44,10 @@ li {
   border-radius: 5px;
 }
 
+.mustReadForm input:focus {
+  outline: none;
+}
+
 .mustReadForm input:first-child {
   width: 300px;
 }
@@ -59,6 +63,15 @@ li {
   height: 30px;
 }
 
+.mustReadForm .submit:hover {
+  background-color: #dddddd;
+  cursor: pointer;
+}
+
+.mustReadForm .submit:active {
+  background-color: #cdcdcd;
+}
+
 .bookList-MustRead {
   padding-left: 18px;
 }
@@ -69,4 +82,5 @@ li {
 
 .bookList-MustRead .delBtn {
   margin-left: 10px;
+  cursor: pointer;
 }
