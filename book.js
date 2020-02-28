@@ -16,6 +16,7 @@ function removeBookData(event) {
   });
   BLMR_Obj = cleanBookData;
   saveBookData();
+  location.reload();
 }
 
 function saveBookData() {
